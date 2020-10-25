@@ -13,7 +13,7 @@ class Matrix:
 
         self.matrix = np.random.choice(self.katakana, self.SIZE)
         self.char_intervals = np.random.randint(25, 50, size=self.SIZE)
-        self.cols_speed = np.random.randint(0, 500, size=self.SIZE)
+        self.cols_speed = np.random.randint(1, 500, size=self.SIZE)
         self.prerendered_chars = self.get_prerendered_chars()
 
         # self.image = self.get_image('img/k1.png')
