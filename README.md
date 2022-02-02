@@ -17,3 +17,10 @@ Turn on your camera and run script:
 ```bash
 python main.py
 ```
+
+You can also make EXE file for Windows:
+```bash
+pip install pyinstaller
+pyinstaller --onefile main.py
+```
+The EXE file requires a font directory with files
